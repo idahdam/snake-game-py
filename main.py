@@ -18,14 +18,14 @@ light_yellow = (255, 255, 0)
 light_white = (255, 219, 219)
 
 # calling sprite
-head_img = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/head.png')
-apple = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/apple.png')
-icon = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/icon.png')
-tail = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/tail.png')
-back_menu = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/back-menu.png')
-back_pause = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/back-pause.png')
-back_game = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/back-game.png')
-back_about = pygame.image.load('C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/images/back-about.png')
+head_img = pygame.image.load('images/head.png')
+apple = pygame.image.load('images/apple.png')
+icon = pygame.image.load('images/icon.png')
+tail = pygame.image.load('images/tail.png')
+back_menu = pygame.image.load('images/back-menu.png')
+back_pause = pygame.image.load('images/back-pause.png')
+back_game = pygame.image.load('images/back-game.png')
+back_about = pygame.image.load('images/back-about.png')
 
 # variabele display
 display_width = 800
@@ -78,10 +78,10 @@ clock = pygame.time.Clock()
 FPS = 20
 
 # font, (font, size)
-smallfont = pygame.font.Font("C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/ARCADE_N.ttf", 25)
-mediumfont = pygame.font.Font("C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/ARCADE_N.ttf", 30)
-bigfont = pygame.font.Font("C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/ARCADE_N.ttf", 50)  
-verysmallfont = pygame.font.Font("C:/Users/idahdam/Documents/proyek pribadi/GUI/studying/ARCADE_N.ttf", 19) 
+smallfont = pygame.font.Font("ARCADE_N.ttf", 25)
+mediumfont = pygame.font.Font("ARCADE_N.ttf", 30)
+bigfont = pygame.font.Font("ARCADE_N.ttf", 50)  
+verysmallfont = pygame.font.Font("ARCADE_N.ttf", 19) 
 
 # size = 25 is a default value --> def text_objects(text, color, size = 25)
 def text_objects(text, color, size):
